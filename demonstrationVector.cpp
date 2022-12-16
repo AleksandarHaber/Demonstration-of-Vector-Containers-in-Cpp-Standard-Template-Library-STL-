@@ -68,7 +68,7 @@ int main()
 	cout<<"vector1 size is: "<<vector1.size()<<endl;
 	// resize the vector
 	vector2.resize(10); // 0s are placed automatically at new entries
-	cout<<"vector1 size is: "<<vector1.size()<<endl;
+	cout<<"vector2 size is: "<<vector2.size()<<endl;
 	printVectorIterators(vector2); 
 	// resize with a specific number set to be copied at the empty spots
 	int numberToCopy=2;
