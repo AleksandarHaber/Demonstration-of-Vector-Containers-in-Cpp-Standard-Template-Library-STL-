@@ -139,9 +139,9 @@ int main()
 		}
 	}
 	
-	if (findIterator!=vector1.end())
+	if (findIterator2!=vector1.end())
 	{
-	 	cout<<"First entry that matches the search query found at the position "<<findIterator-vector1.begin()<<endl;
+	 	cout<<"First entry that matches the search query found at the position "<<findIterator2-vector1.begin()<<endl;
 	}
 	else
 	{
